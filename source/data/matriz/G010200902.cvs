@@ -1,0 +1,46 @@
+﻿Algoritmos e Estrutura de Dados I;GCC101;s;;1;34;34
+Fundamentos de Ciência da Computação;GCC102;s;;1;34;0
+Comunicação e Expressão;GCH101;s;;1;34;34
+Introdução à Filosofia;GCH102;s;;1;68;0
+Inglês Instrumental I;GCH103;s;;1;17;17
+Matemática Fundamental;GEX101;s;;1;34;0
+Geometria Analítica e Álgebra Linear;GEX102;s;;1;68;0
+Introdução à Lógica;GEX103;s;;1;68;0
+Instituições de Direito Público e Privado;GAE196;s;;2;34;0
+Matemática Discreta;GCC103;s;;2;68;0
+Algoritmos e Estrutura de Dados II;GCC104;s;GCC101;2;34;34
+Linguagens de Programação I;GCC105;s;;2;68;0
+Sociologia;GCH104;s;;2;68;0
+Inglês Instrumental II;GCH106;s;GCH103;2;17;17
+Cálculo I;GEX104;s;GEX101;2;102;0
+Conceitos de Física B;GEX133;s;;2;0;34
+Metodologia Científica;GCC106;s;;3;68;0
+Circuitos Eletrônicos;GCC107;s;GEX133;3;68;34
+Teoria da Computação;GCC108;s;GCC103;3;68;0
+Algoritmos e Estrutura de Dados III;GCC109;s;GCC104;3;68;0
+Programação Orientada a Objetos;GCC110;s;GCC105 GCC104;3;68;0
+Cálculo II;GEX106;s;GEX104 GEX102;3;68;0
+Estatística;GEX112;s;GEX104;3;34;34
+Projeto e Análise de Algoritmos;GCC111;s;GCC103 GCC109;4;68;0
+Linguagens de Programação II;GCC112;s;GCC105;4;68;0
+Circuitos Digitais;GCC113;s;GCC107;4;68;34
+Banco de Dados I;GCC114;s;GCC104;4;34;34
+Engenharia de Software I;GCC115;s;;4;34;34
+Cálculo III;GEX108;s;GEX106;4;68;0
+Sistemas Operacionais;GCC116;s;GCC104;5;68;0
+Arquitetura de Computadores I;GCC117;s;GCC113;5;68;0
+Programação Matemática;GCC118;s;GCC103 GEX102;5;68;0
+Banco de Dados II;GCC119;s;GCC114;5;34;34
+Engenharia de Software II;GCC120;s;GCC115;5;34;34
+Interface Homem-máquina;GCC121;s;GCC115;5;68;0
+Linguagens Formais e Autômatos;GCC122;s;GCC108;6;68;0
+Arquitetura de Computadores II;GCC123;s;GCC117;6;68;0
+Computação Gráfica;GCC124;s;GCC109  GEX102;6;68;0
+Redes de Computadores;GCC125;s;GCC117;6;68;0
+Programação Paralela e Distribuída;GCC126;s;GCC111;6;68;0
+Informática e Sociedade;GCC127;s;GCC102;7;68;0
+Inteligência Artificial;GCC128;s;GCC111;7;68;0
+Sistemas Distribuídos;GCC129;s;;7;68;0
+Compiladores;GCC130;s;GCC122;7;68;0
+Trabalho de Conclusão de Curso I;PRG310;s;GCC106;7;68;0
+Trabalho de Conclusão de Curso II;PRG410;s;PRG310;8;0;272

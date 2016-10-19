@@ -1,0 +1,41 @@
+Teoria Geral da Administração I;GAE103;s;;1;68;0
+Algoritmos e Estrutura de Dados I;GCC101;s;;1;34;34
+Introdução à Sistemas de Informação;GCC171;s;;1;17;17
+Comunicação e Expressão;GCH101;s;;1;34;34
+Matemática Fundamental;GEX101;s;;1;34;0
+Introdução à Lógica;GEX103;s;;1;68;0
+Instituições de Direito Público e Privado;GAE196;s;;2;34;0
+Matemática Discreta;GCC103;s;;2;68;0
+Algoritmos e Estrutura de Dados II;GCC104;s;GCC101;2;34;34
+Introdução à Filosofia;GCH102;s;;2;68;0
+Inglês Instrumental I;GCH103;s;;2;17;17
+Fundamentos de Cálculo;GEX156;s;GEX101;2;68;0
+Organizações Sistemas e Métodos;GAE105;s;;3;34;0
+Linguagens de Programação I;GCC105;s;GCC101;3;68;0
+Algoritmos e Estrutura de Dados III;GCC109;s;GCC104;3;68;0
+Sociologia;GCH104;s;;3;68;0
+Inglês Instrumental II;GCH106;s;GCH103;3;17;17
+Estatística;GEX112;s;;3;34;34
+Teoria Econômica;GAE108;s;;4;68;0
+Metodologia Científica;GCC106;s;;4;68;0
+Programação Orientada a Objetos;GCC110;s;GCC104 GCC105;4;68;0
+Banco de Dados I;GCC114;s;;4;34;34
+Organização de Computadores;GCC133;s;;4;68;0
+Projeto e Análise de Algoritmos;GCC111;s;GCC103 GCC109;5;68;0
+Engenharia de Software I;GCC115;s;GCC114;5;34;34
+Sistemas Operacionais;GCC116;s;GCC104;5;68;0
+Banco de Dados II;GCC119;s;GCC114;5;34;34
+Sistemas e Tecnologias de Informação;GCC134;s;;5;68;0
+Trabalho de Conclusão de Curso I;PRG314;s;GCC106;5;68;0
+Administração Estratégica;GAE117;s;GAE103;6;34;34
+Interface Homem-máquina;GCC121;s;GCC115;6;68;0
+Redes de Computadores;GCC125;s;GCC133;6;68;0
+Gerência de Projetos de Software;GCC135;s;GCC114;6;68;0
+Governança de Tecnologia da Informação;GCC136;s;GAE103;6;68;0
+Inteligência Artificial;GCC128;s;GCC111;7;68;0
+Sistemas Distribuídos;GCC129;s;GCC116;7;68;0
+Empreendedorismo em Sistemas de Informação;GCC137;s;GAE103;7;68;0
+Gestão da Qualidade de Software;GCC138;s;GCC121;7;68;0
+Segurança e Auditoria de Sistemas de Informação;GCC139;s;GCC134;8;68;0
+Inteligência de Negócios;GCC140;s;GCC114;8;68;0
+Trabalho de Conclusão de Curso II;PRG414;s;PRG314;8;0;476

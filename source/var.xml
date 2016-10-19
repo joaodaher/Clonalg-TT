@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : var.xml
+    Created on : 11 de Agosto de 2011, 18:47
+    Author     : João Daher
+    Description:
+        Purpose of the document follows.
+-->
+
+<root>
+
+<clonalg>
+    <pop_size>25</pop_size>
+    <cloning_amt>15</cloning_amt>
+    <cloning_tax>1</cloning_tax> <!-- NAO MUDE! AIS eh 100% sempre!!! -->
+    <mutation_tax>0.9</mutation_tax> <!-- p -->
+    <ranking>8</ranking> <!-- N best selected -->
+    <diversification_amt>25</diversification_amt>
+    
+    <max_generations>10000</max_generations>
+    <max_time>86400</max_time> <!-- in seconds : 2700s = 45min-->
+</clonalg>
+
+<evaluation>
+    <!--
+       % de espaco extra a ser deixado em cada sala
+       0.2 significa que 20% a mais da capacidade de vagas eh necessario
+       para que o espaco alocado seja aceito
+       0.0 significa que, na pior das hipoteses, a sala sera aceita sem sobrar nenhum lugar
+    -->
+    <stocking_gap>0.1</stocking_gap>
+
+    <!--
+        Constantes Multiplicadoras
+        Definem quao importante eh cada item avaliado
+        Avaliacao = Normalizacao (Soma ( Qtd Ocorrencias * Constante Multiplicadora ) de cada item avaliado )
+    -->
+    <chq_horario>1</chq_horario>
+    <chq_espaco>1</chq_espaco>
+    <espacamento>0.25</espacamento>
+    <janelas>0.33</janelas>
+    <alternancia>0.33</alternancia>
+    <lab>1</lab>
+    <turno>1</turno>
+    <isolamento>0.33</isolamento>
+    <proximidade>0.15</proximidade>
+    <exclusividade>1</exclusividade>
+    <capacidade>1</capacidade>
+
+</evaluation>
+
+<rooms path="data\\espacos.cvs"></rooms>
+
+<departments name="DAE" disc="GAE" offer_path="data\\dpto\\DAE.csv"></departments>
+<departments name="DAG" disc="GAG" offer_path="data\\dpto\\DAG.c*v"></departments>
+<departments name="DBI" disc="GBI" offer_path="data\\dpto\\DBI.c*v"></departments>
+<departments name="DCC" disc="GCC" offer_path="data\\dpto\\DCC.csv"></departments>
+<departments name="DCA" disc="GCA" offer_path="data\\dpto\\DCA.c*v"></departments>
+<departments name="DCS" disc="GCS" offer_path="data\\dpto\\DCS.c*v"></departments>
+<departments name="DEX" disc="GEX" offer_path="data\\dpto\\DEX.csv"></departments>
+<departments name="DCF" disc="GEF" offer_path="data\\dpto\\DCF.c*v"></departments>
+<departments name="DCH" disc="GCH" offer_path="data\\dpto\\DCH.csv"></departments>
+<departments name="DED" disc="GDE" offer_path="data\\dpto\\DED.c*v"></departments>
+<departments name="DEF" disc="GFD" offer_path="data\\dpto\\DEF.c*v"></departments>
+<departments name="DEG" disc="GNE" offer_path="data\\dpto\\DEG.c*v"></departments>
+<departments name="DEN" disc="GET" offer_path="data\\dpto\\DEN.c*v"></departments>
+<departments name="DFP" disc="GFP" offer_path="data\\dpto\\DFP.c*v"></departments>
+<departments name="DMV" disc="GMV" offer_path="data\\dpto\\DMV.c*v"></departments>
+<departments name="DQI" disc="GQI" offer_path="data\\dpto\\DQI.c*v"></departments>
+<departments name="DZO" disc="GZO" offer_path="data\\dpto\\DZO.c*v"></departments>
+<departments name="PRG" disc="PRG" offer_path="data\\dpto\\PRG.csv"></departments>
+
+
+<!--
+<courses name="Administração" code="G009" dpt="DAE" shift="daytime">
+    <grid semester="1" name=""></grid>
+    <grid semester="2" name=""></grid>
+    <grid semester="3" name=""></grid>
+    <grid semester="4" name=""></grid>
+    <grid semester="5" name=""></grid>
+    <grid semester="6" name=""></grid>
+    <grid semester="7" name=""></grid>
+    <grid semester="8" name=""></grid>
+</courses>
+<courses name="Administração Pública" code="G026" dpt="DAE" shift="daytime">
+    <grid semester="1" name=""></grid>
+    <grid semester="2" name=""></grid>
+    <grid semester="3" name=""></grid>
+    <grid semester="4" name=""></grid>
+    <grid semester="5" name=""></grid>
+    <grid semester="6" name=""></grid>
+    <grid semester="7" name=""></grid>
+    <grid semester="8" name=""></grid>
+</courses>
+<courses name="Agronomia" code="G001" dpt="DAG" shift="daytime">
+    <grid semester="1" name=""></grid>
+    <grid semester="2" name=""></grid>
+    <grid semester="3" name=""></grid>
+    <grid semester="4" name=""></grid>
+    <grid semester="5" name=""></grid>
+    <grid semester="6" name=""></grid>
+    <grid semester="7" name=""></grid>
+    <grid semester="8" name=""></grid>
+</courses>
+<courses name="Ciências Biológicas (Bacharelado)" code="G012" dpt="DBI" shift="daytime">
+    <grid semester="1" name=""></grid>
+    <grid semester="2" name=""></grid>
+    <grid semester="3" name=""></grid>
+    <grid semester="4" name=""></grid>
+    <grid semester="5" name=""></grid>
+    <grid semester="6" name=""></grid>
+    <grid semester="7" name=""></grid>
+    <grid semester="8" name=""></grid>
+</courses>
+<courses name="Ciências Biológicas (Licenciatura)" code="G020" dpt="DBI" shift="daytime">
+    <grid semester="1" name=""></grid>
+    <grid semester="2" name=""></grid>
+    <grid semester="3" name=""></grid>
+    <grid semester="4" name=""></grid>
+    <grid semester="5" name=""></grid>
+    <grid semester="6" name=""></grid>
+    <grid semester="7" name=""></grid>
+    <grid semester="8" name=""></grid>
+</courses>
+-->
+<courses name="Ciência da Computação" code="G010" dpt="DCC" shift="daytime">
+    <grid semester="1" name="200902"></grid>
+    <grid semester="2" name="200902"></grid>
+    <grid semester="3" name="200902"></grid>
+    <grid semester="4" name="200902"></grid>
+    <grid semester="5" name="200902"></grid>
+    <grid semester="6" name="200801"></grid>
+    <grid semester="7" name="200801"></grid>
+    <grid semester="8" name="200801"></grid>
+</courses>
+<!--
+<courses name="Engenharia Agrícola" code="G003" dpt="DEG" shift="daytime">
+    <grid semester="1" name=""></grid>
+    <grid semester="2" name=""></grid>
+    <grid semester="3" name=""></grid>
+    <grid semester="4" name=""></grid>
+    <grid semester="5" name=""></grid>
+    <grid semester="6" name=""></grid>
+    <grid semester="7" name=""></grid>
+    <grid semester="8" name=""></grid>
+</courses>
+<courses name="Engenharia Ambiental" code="G019" dpt="DEG" shift="daytime">
+    <grid semester="1" name=""></grid>
+    <grid semester="2" name=""></grid>
+    <grid semester="3" name=""></grid>
+    <grid semester="4" name=""></grid>
+    <grid semester="5" name=""></grid>
+    <grid semester="6" name=""></grid>
+    <grid semester="7" name=""></grid>
+    <grid semester="8" name=""></grid>
+</courses>
+<courses name="Engenharia de Alimentos" code="G011" dpt="DCA" shift="daytime">
+    <grid semester="1" name=""></grid>
+    <grid semester="2" name=""></grid>
+    <grid semester="3" name=""></grid>
+    <grid semester="4" name=""></grid>
+    <grid semester="5" name=""></grid>
+    <grid semester="6" name=""></grid>
+    <grid semester="7" name=""></grid>
+    <grid semester="8" name=""></grid>
+</courses>
+<courses name="Engenharia de Controle e Automação" code="G022" dpt="DEG" shift="daytime">
+    <grid semester="1" name=""></grid>
+    <grid semester="2" name=""></grid>
+    <grid semester="3" name=""></grid>
+    <grid semester="4" name=""></grid>
+    <grid semester="5" name=""></grid>
+    <grid semester="6" name=""></grid>
+    <grid semester="7" name=""></grid>
+    <grid semester="8" name=""></grid>
+</courses>
+<courses name="Engenharia Florestal" code="G005" dpt="DCF" shift="daytime">
+    <grid semester="1" name=""></grid>
+    <grid semester="2" name=""></grid>
+    <grid semester="3" name=""></grid>
+    <grid semester="4" name=""></grid>
+    <grid semester="5" name=""></grid>
+    <grid semester="6" name=""></grid>
+    <grid semester="7" name=""></grid>
+    <grid semester="8" name=""></grid>
+</courses>
+<courses name="Filosofia" code="G024" dpt="DCH" shift="nightly">
+    <grid semester="1" name=""></grid>
+    <grid semester="2" name=""></grid>
+    <grid semester="3" name=""></grid>
+    <grid semester="4" name=""></grid>
+    <grid semester="5" name=""></grid>
+    <grid semester="6" name=""></grid>
+    <grid semester="7" name=""></grid>
+    <grid semester="8" name=""></grid>
+</courses>
+<courses name="Letras" code="G025" dpt="DED" shift="nightly">
+    <grid semester="1" name=""></grid>
+    <grid semester="2" name=""></grid>
+    <grid semester="3" name=""></grid>
+    <grid semester="4" name=""></grid>
+    <grid semester="5" name=""></grid>
+    <grid semester="6" name=""></grid>
+    <grid semester="7" name=""></grid>
+    <grid semester="8" name=""></grid>
+</courses>
+<courses name="Medicina Veterinária" code="G007" dpt="DMV" shift="daytime">
+    <grid semester="1" name=""></grid>
+    <grid semester="2" name=""></grid>
+    <grid semester="3" name=""></grid>
+    <grid semester="4" name=""></grid>
+    <grid semester="5" name=""></grid>
+    <grid semester="6" name=""></grid>
+    <grid semester="7" name=""></grid>
+    <grid semester="8" name=""></grid>
+</courses>
+<courses name="Nutrição" code="G023" dpt="GCA" shift="daytime">
+    <grid semester="1" name=""></grid>
+    <grid semester="2" name=""></grid>
+    <grid semester="3" name=""></grid>
+    <grid semester="4" name=""></grid>
+    <grid semester="5" name=""></grid>
+    <grid semester="6" name=""></grid>
+    <grid semester="7" name=""></grid>
+    <grid semester="8" name=""></grid>
+</courses>
+<courses name="Química" code="G013" dpt="DQI" shift="daytime">
+    <grid semester="1" name=""></grid>
+    <grid semester="2" name=""></grid>
+    <grid semester="3" name=""></grid>
+    <grid semester="4" name=""></grid>
+    <grid semester="5" name=""></grid>
+    <grid semester="6" name=""></grid>
+    <grid semester="7" name=""></grid>
+    <grid semester="8" name=""></grid>
+</courses>
+<courses name="Matemática" code="G015" dpt="DEX" shift="nightly">
+    <grid semester="1" name=""></grid>
+    <grid semester="2" name=""></grid>
+    <grid semester="3" name=""></grid>
+    <grid semester="4" name=""></grid>
+    <grid semester="5" name=""></grid>
+    <grid semester="6" name=""></grid>
+    <grid semester="7" name=""></grid>
+    <grid semester="8" name=""></grid>
+</courses>
+-->
+<courses name="Sistemas de Informação" code="G014" dpt="DCC" shift="nightly">
+    <grid semester="1" name="200902"></grid>
+    <grid semester="2" name="200902"></grid>
+    <grid semester="3" name="200902"></grid>
+    <grid semester="4" name="200902"></grid>
+    <grid semester="5" name="200902"></grid>
+    <grid semester="6" name="200902"></grid>
+    <grid semester="7" name="200902"></grid>
+    <grid semester="8" name="200902"></grid>
+</courses>
+<!--
+<courses name="Educação Física (Licenciatura)" code="G016" dpt="DEF" shift="nightly">
+    <grid semester="1" name=""></grid>
+    <grid semester="2" name=""></grid>
+    <grid semester="3" name=""></grid>
+    <grid semester="4" name=""></grid>
+    <grid semester="5" name=""></grid>
+    <grid semester="6" name=""></grid>
+    <grid semester="7" name=""></grid>
+    <grid semester="8" name=""></grid>
+</courses>
+<courses name="Educação Física (Bacharelado)" code="G017" dpt="DEF" shift="nightly">
+    <grid semester="1" name=""></grid>
+    <grid semester="2" name=""></grid>
+    <grid semester="3" name=""></grid>
+    <grid semester="4" name=""></grid>
+    <grid semester="5" name=""></grid>
+    <grid semester="6" name=""></grid>
+    <grid semester="7" name=""></grid>
+    <grid semester="8" name=""></grid>
+</courses>
+<courses name="Física" code="G018" dpt="DEX" shift="nightly">
+    <grid semester="1" name=""></grid>
+    <grid semester="2" name=""></grid>
+    <grid semester="3" name=""></grid>
+    <grid semester="4" name=""></grid>
+    <grid semester="5" name=""></grid>
+    <grid semester="6" name=""></grid>
+    <grid semester="7" name=""></grid>
+    <grid semester="8" name=""></grid>
+</courses>
+<courses name="Zootecnia" code="G002" dpt="DZO" shift="daytime">
+    <grid semester="1" name=""></grid>
+    <grid semester="2" name=""></grid>
+    <grid semester="3" name=""></grid>
+    <grid semester="4" name=""></grid>
+    <grid semester="5" name=""></grid>
+    <grid semester="6" name=""></grid>
+    <grid semester="7" name=""></grid>
+    <grid semester="8" name=""></grid>
+</courses>
+-->
+
+<time>
+    <morning>8:00</morning>
+    <lunch_time>12:00</lunch_time>
+    <afternoon>14:00</afternoon>
+    <snack_time>18:00</snack_time>
+    <evening>19:00</evening>
+    <night>23:00</night>
+    <semester_lenght>17</semester_lenght> <!-- Numbers of weeks in a semester -->
+    <week_lenght>5</week_lenght>
+    <day_lenght>16</day_lenght>
+
+    <days_of_the_week>Segunda</days_of_the_week>
+    <days_of_the_week>Terca</days_of_the_week>
+    <days_of_the_week>Quarta</days_of_the_week>
+    <days_of_the_week>Quinta</days_of_the_week>
+    <days_of_the_week>Sexta</days_of_the_week>
+
+    <time_of_the_day>7:00</time_of_the_day>
+    <time_of_the_day>8:00</time_of_the_day>
+    <time_of_the_day>9:00</time_of_the_day>
+    <time_of_the_day>10:00</time_of_the_day>
+    <time_of_the_day>11:00</time_of_the_day>
+    <time_of_the_day>12:00</time_of_the_day>
+    <time_of_the_day>13:00</time_of_the_day>
+    <time_of_the_day>14:00</time_of_the_day>
+    <time_of_the_day>15:00</time_of_the_day>
+    <time_of_the_day>16:00</time_of_the_day>
+    <time_of_the_day>17:00</time_of_the_day>
+    <time_of_the_day>18:00</time_of_the_day>
+    <time_of_the_day>19:00</time_of_the_day>
+    <time_of_the_day>20:00</time_of_the_day>
+    <time_of_the_day>21:00</time_of_the_day>
+    <time_of_the_day>22:00</time_of_the_day>
+</time>
+
+
+</root>

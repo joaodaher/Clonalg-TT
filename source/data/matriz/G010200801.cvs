@@ -1,0 +1,36 @@
+Laboratório de Computação;COM153;s;;1;0;68
+Algoritmos e Estrutura de Dados I;GCC101;s;;1;68;0
+Fundamentos de Ciência da Computação;GCC102;s;;1;68;0
+Geometria Analítica e Álgebra Linear;GEX102;s;;1;68;0
+Cálculo I;GEX104;s;;1;68;0 
+Cálculo II;CEX167;s;GEX104 GEX102;2;68;0
+Álgebra;CEX169;s;;2;68;0
+Algoritmos e Estruturas de Dados II;COM155;s;COM153 GCC101;2;68;0
+Matemática Discreta;COM156;s;;2;68;0
+Linguagens de Programação;COM157;s;GCC101;2;68;0
+Física I;GEX113;s;GEX104;2;68;0
+Estatística;CEX167;s;GEX104;3;34;34
+Cálculo III;CEX170;s;;3;68;0
+Eletrônica Básica;COM158;s;;3;34;34
+Técnicas de Programação;COM159;s;COM155;3;68;0
+Linguagens de Programação II;COM160;s;;3;68;0
+Metodologia Científica - Dcc;COM161;s;;3;34;0
+Cálculo Numérico;CEX186;s;;4;68;0
+Linguagens Formais e Autômatos;COM162;s;;4;68;0
+Banco de Dados;COM163;s;;4;68;0
+Sistemas Digitais;COM164;s;;4;34;34
+Introdução à Administração;EAS197;s;;4;51;0
+Física III;GEX118;s;CEX170 GEX113;4;68;0
+Projeto e Análise de Algoritmos;COM166;s;COM156;5;68;0
+Teoria da Computação;COM167;s;COM162;5;68;0
+Arquitetura de Computadores;COM168;s;;5;68;0
+Informática e Sociedade;COM169;s;GCC102;5;68;0
+Engenharia de Software;COM170;s;;5;68;0
+Inteligência Artificial;GCC128;s;COM166;6;68;0
+Interface Homem-máquina;GCC121;s;;6;68;0
+Sistemas Operacionais;GCC116;s;;6;68;0
+Redes de Computadores;GCC125;s;COM168;6;68;0
+Programação Paralela e Distribuída;GCC126;s;COM159 COM166;7;68;0
+Compiladores;GCC130;s;;7;68;0
+Projeto Orientado I;PRG310;s;COM161;7;34;0
+Projeto Orientado II;PRG410;s;PRG110;8;0;34

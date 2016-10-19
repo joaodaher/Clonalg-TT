@@ -1,0 +1,130 @@
+Anatomia Veterinária I;GMV101;34;102;7A;28
+Anatomia Veterinária I;GMV101;34;102;7B;30
+Citologia e Histologia Geral;GMV102;34;34;16A 17A 23A 23B 23C 2C;120
+Citologia e Histologia Geral;GMV102;34;34;23A 23B;60
+Citologia e Histologia Geral;GMV102;34;34;2A 2B 7A 7B;120
+Citologia e Histologia Geral;GMV102;34;34;7A 7B;60
+Citologia e Histologia Geral;GMV102;34;34;16A 17A 23C 2C;60
+Citologia e Histologia Geral;GMV102;34;34;2A 2B;60
+Embriologia Geral;GMV103;17;34;2A 2B 2C 7A 7B;150
+Embriologia Geral;GMV103;17;34;2A;30
+Embriologia Geral;GMV103;17;34;12A 12B 20A 23A 23B;150
+Embriologia Geral;GMV103;17;34;12A;30
+Embriologia Geral;GMV103;17;34;2B;30
+Embriologia Geral;GMV103;17;34;20A;30
+Embriologia Geral;GMV103;17;34;23A;30
+Embriologia Geral;GMV103;17;34;7A;30
+Embriologia Geral;GMV103;17;34;7B;30
+Embriologia Geral;GMV103;17;34;2C;30
+Embriologia Geral;GMV103;17;34;23B;30
+Embriologia Geral;GMV103;17;34;12B;30
+Anatomia Veterinária II;GMV104;68;68;7A 7B;57
+Anatomia Veterinária II;GMV104;68;68;7A;27
+Anatomia Veterinária II;GMV104;68;68;7B;30
+Histologia Veterinária;GMV105;34;85;7A 7B;57
+Educação e Informação;GMV106;68;0;7A;28
+Educação e Informação;GMV106;68;0;7B;30
+Fisiologia Geral;GMV107;68;0;12A 23A;100
+Fisiologia Geral;GMV107;68;0;2A 7A;125
+Fisiologia Veterinaria;GMV108;34;51;7A;54
+Metabolismo Animal;GMV109;34;34;12A 20A 2A 7A;116
+Imunologia Veterinária;GMV110;51;0;7A;50
+Patologia Geral Veterinária;GMV111;34;51;7A 7B;54
+Patologia Geral Veterinária;GMV111;34;51;7B;27
+Patologia Geral Veterinária;GMV111;34;51;7A;27
+Farmacologia Veterinária;GMV112;68;51;7A;50
+Parasitologia Veterinária;GMV113;51;34;7A 7B;50
+Parasitologia Veterinária;GMV113;51;34;7B;25
+Parasitologia Veterinária;GMV113;51;34;7A;25
+Microbiologia Veterinária;GMV114;51;51;7A 7B;50
+Microbiologia Veterinária;GMV114;51;51;7A;25
+Microbiologia Veterinária;GMV114;51;51;7B;25
+Patologia Especial Veterinária;GMV115;68;68;7B;15
+Patologia Especial Veterinária;GMV115;68;68;7A 7B 7C 7D;60
+Patologia Especial Veterinária;GMV115;68;68;7C;15
+Patologia Especial Veterinária;GMV115;68;68;7A;15
+Patologia Especial Veterinária;GMV115;68;68;7D;15
+Semiologia;GMV116;34;51;7A 7B 7C 7D;104
+Semiologia;GMV116;34;51;7D;29
+Semiologia;GMV116;34;51;7A;25
+Semiologia;GMV116;34;51;7C;25
+Semiologia;GMV116;34;51;7B;25
+Diagnóstico por Imagem;GMV117;34;34;7A 7B 7C 7D 7E 7F;108
+Diagnóstico por Imagem;GMV117;34;34;7E;18
+Diagnóstico por Imagem;GMV117;34;34;7D;18
+Diagnóstico por Imagem;GMV117;34;34;7F;18
+Diagnóstico por Imagem;GMV117;34;34;7C;18
+Diagnóstico por Imagem;GMV117;34;34;7B;18
+Diagnóstico por Imagem;GMV117;34;34;7A;18
+Doenças I;GMV118;51;17;7A 7B;50
+Doenças I;GMV118;51;17;7A;25
+Doenças I;GMV118;51;17;7B;25
+Epidemiologia e Saúde Pública;GMV119;34;34;23A;25
+Patologia Clínica Veterinária;GMV120;34;34;7A 7B;50
+Patologia Clínica Veterinária;GMV120;34;34;7A;25
+Patologia Clínica Veterinária;GMV120;34;34;7B;25
+Anestesiologia Veterinária;GMV121;34;34;7A;50
+Fisiopatol Reprodução e Inseminação Artificial;GMV122;34;34;7A 7B;50
+Fisiopatol Reprodução e Inseminação Artificial;GMV122;34;34;7A;25
+Fisiopatol Reprodução e Inseminação Artificial;GMV122;34;34;7B;25
+Clínica Médica de Grandes Animais;GMV123;85;34;7A 7B;34
+Clínica Médica de Grandes Animais;GMV123;85;34;7A;16
+Clínica Médica de Grandes Animais;GMV123;85;34;7B;18
+Doenças II;GMV124;51;17;7A;33
+Técnicas Cirúrgicas Veterinárias;GMV125;34;34;7A;15
+Técnicas Cirúrgicas Veterinárias;GMV125;34;34;7B;15
+Clínica Médica de Pequenos Animais;GMV126;68;34;7A;30
+Epidemiologia Veterinária;GMV127;34;34;7A;30
+Fisiopatol Reprodução e Tec Sêmen;GMV128;34;34;7B;15
+Fisiopatol Reprodução e Tec Sêmen;GMV128;34;34;7A 7B;30
+Fisiopatol Reprodução e Tec Sêmen;GMV128;34;34;7A;15
+Doenças III;GMV129;51;17;7A;30
+Cirurgia Veterinária;GMV130;34;68;7A;15
+Cirurgia Veterinária;GMV130;34;68;7B;15
+Obstetrícia Veterinária;GMV131;34;34;7B;18
+Obstetrícia Veterinária;GMV131;34;34;7A 7B;31
+Obstetrícia Veterinária;GMV131;34;34;7A;13
+Deontologia e Med Veter Legal;GMV132;51;0;7A;36
+Toxicologia Veterinária;GMV133;34;34;7B;18
+Toxicologia Veterinária;GMV133;34;34;7A 7B;31
+Toxicologia Veterinária;GMV133;34;34;7A;13
+Histologia Geral;GMV134;17;34;12A 20A;60
+Imunologia;GMV136;51;17;16A 17A 23A;40
+Parasitologia Humana;GMV137;34;34;23A;25
+Patologia Humana;GMV138;34;34;23A;31
+Anatomia Animal;GMV140;34;34;12A 12B 2A 2B;85
+Anatomia Animal;GMV140;34;34;12B 2B;42
+Anatomia Animal;GMV140;34;34;12A 2A;43
+Parasitologia;GMV141;34;34;12A 2A;65
+Fundamentos de Profilaxia e Imunologia;GMV143;34;51;2A;50
+Bem Estar Animal;GMV144;34;0;12A 2A 7A;25
+Aplicação de Radionuclídeos em Medicina Veterinária;GMV147;17;0;7A;25
+Clínica e Biotéc Aplic à Reprod de Ruminantes;GMV151;17;17;7A;10
+Clínica e Biotécnicas Apli à Reprod de Caninos;GMV153;17;17;7A;10
+Clínica e Biotécnicas Aplicadas à Reprod de Equídeos;GMV154;17;17;7A;25
+Diagnóstico Post-mortem;GMV155;0;34;7A;5
+Eletrocardiografia na Clínica de Pequenos Animais;GMV157;17;17;7A;15
+Informatização na Med Veterinaria e Prod Animal;GMV159;17;17;7A;25
+Manejo e Clínica de Animais Silvestres;GMV160;17;34;7A;25
+Podologia de Bovinos;GMV161;17;17;7A;10
+Podologia Equina;GMV162;17;17;7A;25
+Praticas Veterinarias em Bovinocultura I;GMV164;0;34;7A;20
+Praticas Veterinárias em Bovinocultura II;GMV165;0;34;7A;10
+Reprodução de Peixes de Água Doce;GMV167;17;0;7A;15
+Sanidade na Criação de Bezerros;GMV168;17;17;7A;8
+Tópicos em Hematologia Veterinária;GMV173;17;17;7A;25
+Etologia e Desvios Comportamentais dos Animais Domésticos;GMV175;51;0;12A 20A 7A;25
+Insp Carne Pescado Ovos e Mel;GMV176;34;34;7A;30
+Insp de Leite e Produtos Lácteos;GMV177;34;34;7A;30
+Higiene Animal;GMV178;34;51;2A;30
+Iniciação à Educação Continuada;GMV180;34;0;7A;14
+Farmacologia Geral;GMV183;34;0;23A 2A;75
+Tópicos em Cirurgia de Grandes Animais;GMV185;17;0;7A;20
+Tópicos Especiais em Medicina Interna Equina;GMV187;34;0;7A;16
+Claudicação em Equinos;GMV188;17;17;7A;15
+Diagnóstico por imagem em animais selvagens e exóticos;GMV189;34;17;7A;25
+Cólica Equina;GMV190;17;17;7A;20
+Evolução;GMV191;68;0;12A 20A 2A;20
+Produção de Peixes Ornamentais;GMV193;34;0;7A;40
+Noções básicas de ações para controle de endemias e epidemias;GMV194;17;51;7A;40
+Ortopedia em pequenos Animais;GMV195;17;17;7A;10
